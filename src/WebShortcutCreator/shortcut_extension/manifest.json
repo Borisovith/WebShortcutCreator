@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Web Shortcut Creator",
+  "version": "1.4",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "nativeMessaging",
+    "storage"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "WebShortcutCreator.png",
+      "32": "WebShortcutCreator.png",
+      "48": "WebShortcutCreator.png",
+      "128": "WebShortcutCreator.png"
+    }
+  },
+  "icons": {
+    "16": "WebShortcutCreator.png",
+    "32": "WebShortcutCreator.png",
+    "48": "WebShortcutCreator.png",
+    "128": "WebShortcutCreator.png"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  }
+}

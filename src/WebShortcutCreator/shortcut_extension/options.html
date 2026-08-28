@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Web Shortcut Creator - Settings</title>
+  <style>
+    body {
+      font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+      padding: 24px;
+      max-width: 540px;
+      color: #333;
+      background: #f8f9fa;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .header-title img {
+      width: 32px;
+      height: 32px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .lang-select {
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      background: white;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .option-group {
+      background: white;
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 16px;
+    }
+    .radio-label {
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .path-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+      margin-left: 24px;
+    }
+    input[type="text"] {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    button.btn-browse {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      background: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    button.btn-browse:hover {
+      background: #1557b0;
+    }
+    button.btn-browse img {
+      width: 16px;
+      height: 16px;
+    }
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    #status {
+      font-size: 13px;
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    .bmc-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #FFDD00;
+      color: #000000;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 13px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: background-color 0.2s ease;
+    }
+    .bmc-button:hover {
+      background-color: #FFEA00;
+    }
+    .bmc-button img {
+      height: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-title">
+      <img src="WebShortcutCreator.png" alt="Icon">
+      <h2 id="titleText">Save Mode Settings</h2>
+    </div>
+
+    <select id="langSelect" class="lang-select">
+      <option value="auto">🌐 Auto (System)</option>
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+      <option value="fr">Français</option>
+      <option value="it">Italiano</option>
+      <option value="es">Español</option>
+      <option value="nl">Nederlands</option>
+      <option value="sv">Svenska</option>
+      <option value="da">Dansk</option>
+      <option value="no">Norsk</option>
+      <option value="pt">Português</option>
+      <option value="pl">Polski</option>
+      <option value="uk">Українська</option>
+      <option value="ru">Русский</option>
+      <option value="zh">中文</option>
+      <option value="ja">日本語</option>
+      <option value="ko">한국어</option>
+    </select>
+  </div>
+
+  <div class="option-group">
+    <label class="radio-label">
+      <input type="radio" name="saveMode" value="ask">
+      <span id="lblAsk">Ask for folder every time when saving</span>
+    </label>
+
+    <label class="radio-label">
+      <input type="radio" name="saveMode" value="default">
+      <span id="lblDefault">Save to default folder</span>
+    </label>
+
+    <div class="path-row" id="defaultPathContainer">
+      <input type="text" id="defaultPath" readonly>
+      <button id="browseBtn" class="btn-browse">
+        <img src="WebShortcutCreator.png" alt="">
+        <span id="btnBrowseText">Browse...</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div id="status"></div>
+    <a class="bmc-button" href="https://buymeacoffee.com/borisovith" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy Me A Coffee">
+      <span id="bmcText">Buy me a coffee</span>
+    </a>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

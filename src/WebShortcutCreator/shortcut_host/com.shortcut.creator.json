@@ -1,0 +1,9 @@
+{
+  "name": "com.shortcut.creator",
+  "description": "Desktop Shortcut Creator Native Host",
+  "path": "C:\\WebShortcutCreator\\shortcut_host\\run.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ВАШ_EXTENSION_ID/"
+  ]
+}
