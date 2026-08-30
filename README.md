@@ -62,7 +62,7 @@ Right‑click the extension icon and choose **Options**. There you can set:
 ---
 
 ## 📝 Detailed Instructions (Russian)
-For a detailed step‑by‑step guide in Russian, see [INSTALL_RU.md](INSTALL_RU.md).
+For a detailed step‑by‑step guide in Russian, see INSTALL.md.
 
 ---
 
