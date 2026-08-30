@@ -35,3 +35,4 @@ Desktop.ini
 # Папки (котрые не должны отображатся в репозитории)
 release/
 images/
+release_webstore/
