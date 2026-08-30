@@ -61,8 +61,8 @@ Right‑click the extension icon and choose **Options**. There you can set:
 
 ---
 
-## 📝 Detailed Instructions (Russian)
-For a detailed step‑by‑step guide in Russian, see INSTALL.md.
+## 📝 Detailed Instructions  
+For a detailed step‑by‑step guide   see INSTALL.md.
 
 ---
 
