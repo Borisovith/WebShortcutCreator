@@ -1,3 +1,5 @@
+ 
+ EXTENSION_ID = "npahemdaconbjbbgojmmegikfnnkgjbc"  #замените на ваш  ваш  ID, или не меняйте, если расширение установленно из магазина
  Соберите setup.exe
 
 
