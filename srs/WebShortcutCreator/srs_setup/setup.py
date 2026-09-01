@@ -10,7 +10,7 @@ from tkinter import ttk, messagebox
 import webbrowser
 
 # --- CONFIGURATION ---
-EXTENSION_ID = "npahemdaconbjbgbjojmmegikfnngkjbc"  # ваш магазинный ID
+EXTENSION_ID = "npahemdaconbjbbgojmmegikfnnkgjbc"  # ваш магазинный ID
 INSTALL_DIR = os.path.join(os.environ['LOCALAPPDATA'], 'WebShortcutCreator')
 HOST_DIR = os.path.join(INSTALL_DIR, 'shortcut_host')
 HOST_EXE = 'make_shortcut.exe'
