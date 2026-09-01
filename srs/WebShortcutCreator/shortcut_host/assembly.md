@@ -1,4 +1,4 @@
- Cкомпилируйте make_shortcut.exe 
+ Cкомпилируйте make_shortcut.exe 
 
 Шаги:
 
@@ -51,4 +51,4 @@ pip install pyinstaller
 Выполните команду для сборки EXE :
 
 cmd
-pyinstaller --onefile --noconsole --icon="путь\к\иконке.ico" make_shortcut.py
+pyinstaller --onefile --noconsole --icon="WebShortcutCreator.ico" make_shortcut.py

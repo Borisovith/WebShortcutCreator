@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --icon="WebShortcutCreator.ico" make_shortcut.py
