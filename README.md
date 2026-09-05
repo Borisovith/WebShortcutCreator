@@ -75,3 +75,9 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 *Happy shortcutting!* 🚀
+
+
+
+
+[https://chromewebstore.google.com/detail/web-shortcut-creator/npahemdaconbjbbgojmmegikfnnkgjbc](https://chromewebstore.google.com/detail/web-shortcut-creator/npahemdaconbjbbgojmmegikfnnkgjbc)
+
